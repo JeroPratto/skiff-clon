@@ -1,6 +1,7 @@
 import type { Meta } from '@storybook/react'
 import Header from './Header'
-import { withRouter } from 'storybook-addon-react-router-v6'
+import { withRouter } from 'storybook-addon-remix-react-router'
+
 import '@/index.css'
 import { within, expect, userEvent } from '@storybook/test'
 

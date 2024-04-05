@@ -1,7 +1,8 @@
 import type { Meta, StoryObj } from '@storybook/react'
 import SignIn from './SignIn'
 import '@/index.css'
-import { withRouter } from 'storybook-addon-react-router-v6'
+import { withRouter } from 'storybook-addon-remix-react-router'
+
 import { expect, userEvent, within } from '@storybook/test'
 
 const meta = {

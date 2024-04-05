@@ -108,26 +108,30 @@ const Code = () => {
 const Table = () => {
 	return (
 		<table className={styles.table}>
-			<tr className={styles.head}>
-				<th>Product name</th>
-				<th>Color</th>
-				<th>Category</th>
-			</tr>
-			<tr>
-				<td></td>
-				<td></td>
-				<td></td>
-			</tr>
-			<tr>
-				<td></td>
-				<td></td>
-				<td></td>
-			</tr>
-			<tr>
-				<td></td>
-				<td></td>
-				<td></td>
-			</tr>
+			<thead>
+				<tr className={styles.head}>
+					<th>Product name</th>
+					<th>Color</th>
+					<th>Category</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td></td>
+					<td></td>
+				</tr>
+			</tbody>
 		</table>
 	)
 }
