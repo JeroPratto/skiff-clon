@@ -54,7 +54,7 @@ const MailPreview: React.FC<MailPreviewInterface> = ({
 				<p className={styles.name}>{name}</p>
 			</div>
 			<p className={`${styles.subject} ${view ? '' : styles.notView}`}>
-				{!view && <div className={styles.orangeCircle}></div>}
+				{!view && <span className={styles.orangeCircle}></span>}
 				{subject} - <span className={styles.advance}>{advance}</span>
 			</p>
 		</li>

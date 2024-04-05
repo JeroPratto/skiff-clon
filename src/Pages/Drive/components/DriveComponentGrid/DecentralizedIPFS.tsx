@@ -15,9 +15,9 @@ const DecentralizedIPFS: React.FC = () => {
 				<svg height='100vh' width='100vw' className={styles.main}>
 					<line
 						stroke='#00A05E'
-						stroke-dasharray='5 5'
-						stroke-width='1px'
-						stroke-dashoffset='0'
+						strokeDasharray='5 5'
+						strokeWidth='1px'
+						strokeDashoffset='0'
 						x1='320'
 						x2='210'
 						y1='196'
@@ -25,9 +25,9 @@ const DecentralizedIPFS: React.FC = () => {
 					></line>
 					<line
 						stroke='#00A05E'
-						stroke-dasharray='5 5'
-						stroke-width='1px'
-						stroke-dashoffset='0'
+						strokeDasharray='5 5'
+						strokeWidth='1px'
+						strokeDashoffset='0'
 						x1='351'
 						x2='452'
 						y1='174'
@@ -35,9 +35,9 @@ const DecentralizedIPFS: React.FC = () => {
 					></line>
 					<line
 						stroke='#00A05E'
-						stroke-dasharray='5 5'
-						stroke-width='1px'
-						stroke-dashoffset='0'
+						strokeDasharray='5 5'
+						strokeWidth='1px'
+						strokeDashoffset='0'
 						x1='334'
 						x2='420'
 						y1='202'
@@ -45,9 +45,9 @@ const DecentralizedIPFS: React.FC = () => {
 					></line>
 					<line
 						stroke='#00A05E'
-						stroke-dasharray='5 5'
-						stroke-width='1px'
-						stroke-dashoffset='0'
+						strokeDasharray='5 5'
+						strokeWidth='1px'
+						strokeDashoffset='0'
 						x1='320'
 						x2='210'
 						y1='208'
@@ -55,9 +55,9 @@ const DecentralizedIPFS: React.FC = () => {
 					></line>
 					<line
 						stroke='#00A05E'
-						stroke-dasharray='5 5'
-						stroke-width='1px'
-						stroke-dashoffset='0'
+						strokeDasharray='5 5'
+						strokeWidth='1px'
+						strokeDashoffset='0'
 						x1='180'
 						x2='160'
 						y1='288'
@@ -65,9 +65,9 @@ const DecentralizedIPFS: React.FC = () => {
 					></line>
 					<line
 						stroke='#00A05E'
-						stroke-dasharray='5 5'
-						stroke-width='1px'
-						stroke-dashoffset='0'
+						strokeDasharray='5 5'
+						strokeWidth='1px'
+						strokeDashoffset='0'
 						x1='160'
 						x2='160'
 						y1='306'
@@ -75,9 +75,9 @@ const DecentralizedIPFS: React.FC = () => {
 					></line>
 					<line
 						stroke='#00A05E'
-						stroke-dasharray='5 5'
-						stroke-width='1px'
-						stroke-dashoffset='0'
+						strokeDasharray='5 5'
+						strokeWidth='1px'
+						strokeDashoffset='0'
 						x1='158'
 						x2='60'
 						y1='302'
@@ -85,9 +85,9 @@ const DecentralizedIPFS: React.FC = () => {
 					></line>
 					<line
 						stroke='#00A05E'
-						stroke-dasharray='5 5'
-						stroke-width='1px'
-						stroke-dashoffset='0'
+						strokeDasharray='5 5'
+						strokeWidth='1px'
+						strokeDashoffset='0'
 						x1='438'
 						x2='438'
 						y1='300'
@@ -95,9 +95,9 @@ const DecentralizedIPFS: React.FC = () => {
 					></line>
 					<line
 						stroke='#00A05E'
-						stroke-dasharray='5 5'
-						stroke-width='1px'
-						stroke-dashoffset='0'
+						strokeDasharray='5 5'
+						strokeWidth='1px'
+						strokeDashoffset='0'
 						x1='474'
 						x2='524'
 						y1='128'
@@ -105,9 +105,9 @@ const DecentralizedIPFS: React.FC = () => {
 					></line>
 					<line
 						stroke='#00A05E'
-						stroke-dasharray='5 5'
-						stroke-width='1px'
-						stroke-dashoffset='0'
+						strokeDasharray='5 5'
+						strokeWidth='1px'
+						strokeDashoffset='0'
 						x1='524'
 						x2='524'
 						y1='198'
@@ -115,9 +115,9 @@ const DecentralizedIPFS: React.FC = () => {
 					></line>
 					<line
 						stroke='#00A05E'
-						stroke-dasharray='5 5'
-						stroke-width='1px'
-						stroke-dashoffset='0'
+						strokeDasharray='5 5'
+						strokeWidth='1px'
+						strokeDashoffset='0'
 						x1='524'
 						x2='554'
 						y1='160'
@@ -125,9 +125,9 @@ const DecentralizedIPFS: React.FC = () => {
 					></line>
 					<line
 						stroke='#00A05E'
-						stroke-dasharray='5 5'
-						stroke-dashoffset='0'
-						stroke-width='1px'
+						strokeDasharray='5 5'
+						strokeDashoffset='0'
+						strokeWidth='1px'
 						x1='588'
 						x2='754'
 						y1='144'
@@ -135,9 +135,9 @@ const DecentralizedIPFS: React.FC = () => {
 					></line>
 					<line
 						stroke='#00A05E'
-						stroke-dasharray='5 5'
-						stroke-width='1px'
-						stroke-dashoffset='0'
+						strokeDasharray='5 5'
+						strokeWidth='1px'
+						strokeDashoffset='0'
 						x1='545'
 						x2='754'
 						y1='222'
@@ -145,9 +145,9 @@ const DecentralizedIPFS: React.FC = () => {
 					></line>
 					<line
 						stroke='#00A05E'
-						stroke-dasharray='5 5'
-						stroke-dashoffset='1'
-						stroke-width='1px'
+						strokeDasharray='5 5'
+						strokeDashoffset='1'
+						strokeWidth='1px'
 						x1='140'
 						x2='80'
 						y1='362'
@@ -180,12 +180,12 @@ const DecentralizedIPFS: React.FC = () => {
 					<path
 						fill='#00A05E'
 						stroke='#149F66'
-						stroke-width='0.793'
+						strokeWidth='0.793'
 						d='m32.217 3.136 19.54 11.282a7.534 7.534 0 0 1 3.767 6.524v22.563a7.534 7.534 0 0 1-3.766 6.524l-19.54 11.282a7.534 7.534 0 0 1-7.534 0L5.144 50.03a7.533 7.533 0 0 1-3.767-6.524V20.942a7.534 7.534 0 0 1 3.767-6.524l19.54-11.282a7.534 7.534 0 0 1 7.533 0Z'
 					></path>
 					<path
 						stroke='transparent'
-						stroke-width='0.75'
+						strokeWidth='0.75'
 						d='M2.702 17.385 29 32m-.456.197 25.655-14.813M28.826 32.051v30.018'
 					></path>
 				</svg>
@@ -199,12 +199,12 @@ const DecentralizedIPFS: React.FC = () => {
 					<path
 						fill='#00A05'
 						stroke='#149F66'
-						stroke-width='0.793'
+						strokeWidth='0.793'
 						d='m32.217 3.136 19.54 11.282a7.534 7.534 0 0 1 3.767 6.524v22.563a7.534 7.534 0 0 1-3.766 6.524l-19.54 11.282a7.534 7.534 0 0 1-7.534 0L5.144 50.03a7.533 7.533 0 0 1-3.767-6.524V20.942a7.534 7.534 0 0 1 3.767-6.524l19.54-11.282a7.534 7.534 0 0 1 7.533 0Z'
 					></path>
 					<path
 						stroke='transparent'
-						stroke-width='0.75'
+						strokeWidth='0.75'
 						d='M2.702 17.385 29 32m-.456.197 25.655-14.813M28.826 32.051v30.018'
 					></path>
 				</svg>

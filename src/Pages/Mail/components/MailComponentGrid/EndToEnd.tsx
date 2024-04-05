@@ -36,7 +36,7 @@ const EndToEndItems = () => {
 						<p className={styles.name}>{mail.name}</p>
 					</div>
 					<p className={`${styles.subject} ${mail.view ? '' : styles.notView}`}>
-						{!mail.view && <div className={styles.orangeCircle}></div>}
+						{!mail.view && <span className={styles.orangeCircle}></span>}
 						{mail.subject} -{' '}
 						<span className={styles.advance}>{mail.advance}</span>
 					</p>

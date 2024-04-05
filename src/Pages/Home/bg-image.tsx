@@ -5,7 +5,7 @@ export const HomeBgImage = () => {
 		<svg height='200vh' width='100vw'>
 			<line
 				stroke='rgba(0,0,0,0.16)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='200'
 				x2='0'
 				y1='0'
@@ -13,107 +13,107 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(239, 90, 60, 0)'
-				stroke-width='1px'
+				strokeWidth='1px'
 				x1='200'
 				x2='0'
 				y1='0'
 				y2='1100'
 				pathLength='1'
-				stroke-dashoffset='-0.34919999999987583px'
-				stroke-dasharray='0.01px 1px'
+				strokeDashoffset='-0.34919999999987583px'
+				strokeDasharray='0.01px 1px'
 			></line>
 			<line
 				stroke='rgba(239, 90, 60, 0.1111111111111111)'
-				stroke-width='1px'
+				strokeWidth='1px'
 				x1='200'
 				x2='0'
 				y1='0'
 				y2='1100'
 				pathLength='1'
-				stroke-dashoffset='-0.35919999999987584px'
-				stroke-dasharray='0.01px 1px'
+				strokeDashoffset='-0.35919999999987584px'
+				strokeDasharray='0.01px 1px'
 			></line>
 			<line
 				stroke='rgba(239, 90, 60, 0.2222222222222222)'
-				stroke-width='1px'
+				strokeWidth='1px'
 				x1='200'
 				x2='0'
 				y1='0'
 				y2='1100'
 				pathLength='1'
-				stroke-dashoffset='-0.3691999999998759px'
-				stroke-dasharray='0.01px 1px'
+				strokeDashoffset='-0.3691999999998759px'
+				strokeDasharray='0.01px 1px'
 			></line>
 			<line
 				stroke='rgba(239, 90, 60, 0.3333333333333333)'
-				stroke-width='1px'
+				strokeWidth='1px'
 				x1='200'
 				x2='0'
 				y1='0'
 				y2='1100'
 				pathLength='1'
-				stroke-dashoffset='-0.37919999999987586px'
-				stroke-dasharray='0.01px 1px'
+				strokeDashoffset='-0.37919999999987586px'
+				strokeDasharray='0.01px 1px'
 			></line>
 			<line
 				stroke='rgba(239, 90, 60, 0.4444444444444444)'
-				stroke-width='1px'
+				strokeWidth='1px'
 				x1='200'
 				x2='0'
 				y1='0'
 				y2='1100'
 				pathLength='1'
-				stroke-dashoffset='-0.3891999999998758px'
-				stroke-dasharray='0.01px 1px'
+				strokeDashoffset='-0.3891999999998758px'
+				strokeDasharray='0.01px 1px'
 			></line>
 			<line
 				stroke='rgba(239, 90, 60, 0.5555555555555556)'
-				stroke-width='1px'
+				strokeWidth='1px'
 				x1='200'
 				x2='0'
 				y1='0'
 				y2='1100'
 				pathLength='1'
-				stroke-dashoffset='-0.3991999999998758px'
-				stroke-dasharray='0.01px 1px'
+				strokeDashoffset='-0.3991999999998758px'
+				strokeDasharray='0.01px 1px'
 			></line>
 			<line
 				stroke='rgba(239, 90, 60, 0.6666666666666666)'
-				stroke-width='1px'
+				strokeWidth='1px'
 				x1='200'
 				x2='0'
 				y1='0'
 				y2='1100'
 				pathLength='1'
-				stroke-dashoffset='-0.4091999999998759px'
-				stroke-dasharray='0.01px 1px'
+				strokeDashoffset='-0.4091999999998759px'
+				strokeDasharray='0.01px 1px'
 			></line>
 			<line
 				stroke='rgba(239, 90, 60, 0.7777777777777777)'
-				stroke-width='1px'
+				strokeWidth='1px'
 				x1='200'
 				x2='0'
 				y1='0'
 				y2='1100'
 				pathLength='1'
-				stroke-dashoffset='-0.41919999999987584px'
-				stroke-dasharray='0.01px 1px'
+				strokeDashoffset='-0.41919999999987584px'
+				strokeDasharray='0.01px 1px'
 			></line>
 			<line
 				stroke='rgba(239, 90, 60, 0.8888888888888888)'
-				stroke-width='1px'
+				strokeWidth='1px'
 				x1='200'
 				x2='0'
 				y1='0'
 				y2='1100'
 				pathLength='1'
-				stroke-dashoffset='-0.42919999999987585px'
-				stroke-dasharray='0.01px 1px'
+				strokeDashoffset='-0.42919999999987585px'
+				strokeDasharray='0.01px 1px'
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.16)'
-				stroke-dasharray='5 5'
-				stroke-width='0.67px'
+				strokeDasharray='5 5'
+				strokeWidth='0.67px'
 				x1='700'
 				x2='0'
 				y1='0'
@@ -121,7 +121,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.16)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='2000'
 				x2='0'
 				y1='0'
@@ -129,8 +129,8 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.16)'
-				stroke-dasharray='5 5'
-				stroke-width='0.67px'
+				strokeDasharray='5 5'
+				strokeWidth='0.67px'
 				x1='6000'
 				x2='0'
 				y1='0'
@@ -138,8 +138,8 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.16)'
-				stroke-dasharray='5 5'
-				stroke-width='0.67px'
+				strokeDasharray='5 5'
+				strokeWidth='0.67px'
 				x1='0'
 				x2='2000'
 				y1='0'
@@ -147,8 +147,8 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.16)'
-				stroke-dasharray='5 5'
-				stroke-width='0.67px'
+				strokeDasharray='5 5'
+				strokeWidth='0.67px'
 				x1='300'
 				x2='2000'
 				y1='0'
@@ -156,7 +156,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='20'
 				x2='20'
 				y1='0'
@@ -164,7 +164,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='40'
 				x2='40'
 				y1='0'
@@ -172,7 +172,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='60'
 				x2='60'
 				y1='0'
@@ -180,7 +180,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='80'
 				x2='80'
 				y1='0'
@@ -188,7 +188,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='100'
 				x2='100'
 				y1='0'
@@ -196,7 +196,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='120'
 				x2='120'
 				y1='0'
@@ -204,7 +204,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='140'
 				x2='140'
 				y1='0'
@@ -212,7 +212,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='160'
 				x2='160'
 				y1='0'
@@ -220,7 +220,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='180'
 				x2='180'
 				y1='0'
@@ -228,7 +228,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='200'
 				x2='200'
 				y1='0'
@@ -236,7 +236,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='220'
 				x2='220'
 				y1='0'
@@ -244,7 +244,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='240'
 				x2='240'
 				y1='0'
@@ -252,7 +252,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='260'
 				x2='260'
 				y1='0'
@@ -260,7 +260,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='280'
 				x2='280'
 				y1='0'
@@ -268,7 +268,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='300'
 				x2='300'
 				y1='0'
@@ -276,7 +276,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='320'
 				x2='320'
 				y1='0'
@@ -284,7 +284,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='340'
 				x2='340'
 				y1='0'
@@ -292,7 +292,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='360'
 				x2='360'
 				y1='0'
@@ -300,7 +300,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='380'
 				x2='380'
 				y1='0'
@@ -308,7 +308,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='400'
 				x2='400'
 				y1='0'
@@ -316,7 +316,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='420'
 				x2='420'
 				y1='0'
@@ -324,7 +324,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='440'
 				x2='440'
 				y1='0'
@@ -332,7 +332,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='460'
 				x2='460'
 				y1='0'
@@ -340,7 +340,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='480'
 				x2='480'
 				y1='0'
@@ -348,7 +348,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='500'
 				x2='500'
 				y1='0'
@@ -356,7 +356,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='520'
 				x2='520'
 				y1='0'
@@ -364,7 +364,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='540'
 				x2='540'
 				y1='0'
@@ -372,7 +372,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='560'
 				x2='560'
 				y1='0'
@@ -380,7 +380,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='580'
 				x2='580'
 				y1='0'
@@ -388,7 +388,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='600'
 				x2='600'
 				y1='0'
@@ -396,7 +396,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='620'
 				x2='620'
 				y1='0'
@@ -404,7 +404,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='640'
 				x2='640'
 				y1='0'
@@ -412,7 +412,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='660'
 				x2='660'
 				y1='0'
@@ -420,7 +420,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='680'
 				x2='680'
 				y1='0'
@@ -428,7 +428,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='700'
 				x2='700'
 				y1='0'
@@ -436,7 +436,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='720'
 				x2='720'
 				y1='0'
@@ -444,7 +444,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='740'
 				x2='740'
 				y1='0'
@@ -452,7 +452,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='760'
 				x2='760'
 				y1='0'
@@ -460,7 +460,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='780'
 				x2='780'
 				y1='0'
@@ -468,7 +468,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='800'
 				x2='800'
 				y1='0'
@@ -476,7 +476,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='820'
 				x2='820'
 				y1='0'
@@ -484,7 +484,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='840'
 				x2='840'
 				y1='0'
@@ -492,7 +492,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='860'
 				x2='860'
 				y1='0'
@@ -500,7 +500,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='880'
 				x2='880'
 				y1='0'
@@ -508,7 +508,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='900'
 				x2='900'
 				y1='0'
@@ -516,7 +516,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='920'
 				x2='920'
 				y1='0'
@@ -524,7 +524,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='940'
 				x2='940'
 				y1='0'
@@ -532,7 +532,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='960'
 				x2='960'
 				y1='0'
@@ -540,7 +540,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='980'
 				x2='980'
 				y1='0'
@@ -548,7 +548,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='1000'
 				x2='1000'
 				y1='0'
@@ -556,7 +556,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='1020'
 				x2='1020'
 				y1='0'
@@ -564,7 +564,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='1040'
 				x2='1040'
 				y1='0'
@@ -572,7 +572,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='1060'
 				x2='1060'
 				y1='0'
@@ -580,7 +580,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='1080'
 				x2='1080'
 				y1='0'
@@ -588,7 +588,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='1100'
 				x2='1100'
 				y1='0'
@@ -596,7 +596,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='1120'
 				x2='1120'
 				y1='0'
@@ -604,7 +604,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='1140'
 				x2='1140'
 				y1='0'
@@ -612,7 +612,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='1160'
 				x2='1160'
 				y1='0'
@@ -620,7 +620,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='1180'
 				x2='1180'
 				y1='0'
@@ -628,7 +628,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='1200'
 				x2='1200'
 				y1='0'
@@ -636,7 +636,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='1220'
 				x2='1220'
 				y1='0'
@@ -644,7 +644,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='1240'
 				x2='1240'
 				y1='0'
@@ -652,7 +652,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='1260'
 				x2='1260'
 				y1='0'
@@ -660,7 +660,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='1280'
 				x2='1280'
 				y1='0'
@@ -668,7 +668,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='1300'
 				x2='1300'
 				y1='0'
@@ -676,7 +676,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='1320'
 				x2='1320'
 				y1='0'
@@ -684,7 +684,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='1340'
 				x2='1340'
 				y1='0'
@@ -692,7 +692,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='1360'
 				x2='1360'
 				y1='0'
@@ -700,7 +700,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='1380'
 				x2='1380'
 				y1='0'
@@ -708,7 +708,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='1400'
 				x2='1400'
 				y1='0'
@@ -716,7 +716,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='1420'
 				x2='1420'
 				y1='0'
@@ -724,7 +724,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='1440'
 				x2='1440'
 				y1='0'
@@ -732,7 +732,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='1460'
 				x2='1460'
 				y1='0'
@@ -740,7 +740,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='1480'
 				x2='1480'
 				y1='0'
@@ -748,7 +748,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='1500'
 				x2='1500'
 				y1='0'
@@ -756,7 +756,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='1520'
 				x2='1520'
 				y1='0'
@@ -764,7 +764,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='1540'
 				x2='1540'
 				y1='0'
@@ -772,7 +772,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='1560'
 				x2='1560'
 				y1='0'
@@ -780,7 +780,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='1580'
 				x2='1580'
 				y1='0'
@@ -788,7 +788,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='1600'
 				x2='1600'
 				y1='0'
@@ -796,7 +796,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='1620'
 				x2='1620'
 				y1='0'
@@ -804,7 +804,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='1640'
 				x2='1640'
 				y1='0'
@@ -812,7 +812,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='1660'
 				x2='1660'
 				y1='0'
@@ -820,7 +820,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='1680'
 				x2='1680'
 				y1='0'
@@ -828,7 +828,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='1700'
 				x2='1700'
 				y1='0'
@@ -836,7 +836,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='1720'
 				x2='1720'
 				y1='0'
@@ -844,7 +844,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='1740'
 				x2='1740'
 				y1='0'
@@ -852,7 +852,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='1760'
 				x2='1760'
 				y1='0'
@@ -860,7 +860,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='1780'
 				x2='1780'
 				y1='0'
@@ -868,7 +868,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='1800'
 				x2='1800'
 				y1='0'
@@ -876,7 +876,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='1820'
 				x2='1820'
 				y1='0'
@@ -884,7 +884,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='1840'
 				x2='1840'
 				y1='0'
@@ -892,7 +892,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='1860'
 				x2='1860'
 				y1='0'
@@ -900,7 +900,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='1880'
 				x2='1880'
 				y1='0'
@@ -908,7 +908,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='1900'
 				x2='1900'
 				y1='0'
@@ -916,7 +916,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='1920'
 				x2='1920'
 				y1='0'
@@ -924,7 +924,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='1940'
 				x2='1940'
 				y1='0'
@@ -932,7 +932,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='1960'
 				x2='1960'
 				y1='0'
@@ -940,7 +940,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='1980'
 				x2='1980'
 				y1='0'
@@ -948,7 +948,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='2000'
 				x2='2000'
 				y1='0'
@@ -956,106 +956,106 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(207, 116, 162, 0)'
-				stroke-width='1px'
+				strokeWidth='1px'
 				x1='1420'
 				x2='1420'
 				y1='0'
 				y2='1100'
 				pathLength='1'
-				stroke-dashoffset='-0.34919999999987583px'
-				stroke-dasharray='0.01px 1px'
+				strokeDashoffset='-0.34919999999987583px'
+				strokeDasharray='0.01px 1px'
 			></line>
 			<line
 				stroke='rgba(207, 116, 162, 0.1111111111111111)'
-				stroke-width='1px'
+				strokeWidth='1px'
 				x1='1420'
 				x2='1420'
 				y1='0'
 				y2='1100'
 				pathLength='1'
-				stroke-dashoffset='-0.35919999999987584px'
-				stroke-dasharray='0.01px 1px'
+				strokeDashoffset='-0.35919999999987584px'
+				strokeDasharray='0.01px 1px'
 			></line>
 			<line
 				stroke='rgba(207, 116, 162, 0.2222222222222222)'
-				stroke-width='1px'
+				strokeWidth='1px'
 				x1='1420'
 				x2='1420'
 				y1='0'
 				y2='1100'
 				pathLength='1'
-				stroke-dashoffset='-0.3691999999998759px'
-				stroke-dasharray='0.01px 1px'
+				strokeDashoffset='-0.3691999999998759px'
+				strokeDasharray='0.01px 1px'
 			></line>
 			<line
 				stroke='rgba(207, 116, 162, 0.3333333333333333)'
-				stroke-width='1px'
+				strokeWidth='1px'
 				x1='1420'
 				x2='1420'
 				y1='0'
 				y2='1100'
 				pathLength='1'
-				stroke-dashoffset='-0.37919999999987586px'
-				stroke-dasharray='0.01px 1px'
+				strokeDashoffset='-0.37919999999987586px'
+				strokeDasharray='0.01px 1px'
 			></line>
 			<line
 				stroke='rgba(207, 116, 162, 0.4444444444444444)'
-				stroke-width='1px'
+				strokeWidth='1px'
 				x1='1420'
 				x2='1420'
 				y1='0'
 				y2='1100'
 				pathLength='1'
-				stroke-dashoffset='-0.3891999999998758px'
-				stroke-dasharray='0.01px 1px'
+				strokeDashoffset='-0.3891999999998758px'
+				strokeDasharray='0.01px 1px'
 			></line>
 			<line
 				stroke='rgba(207, 116, 162, 0.5555555555555556)'
-				stroke-width='1px'
+				strokeWidth='1px'
 				x1='1420'
 				x2='1420'
 				y1='0'
 				y2='1100'
 				pathLength='1'
-				stroke-dashoffset='-0.3991999999998758px'
-				stroke-dasharray='0.01px 1px'
+				strokeDashoffset='-0.3991999999998758px'
+				strokeDasharray='0.01px 1px'
 			></line>
 			<line
 				stroke='rgba(207, 116, 162, 0.6666666666666666)'
-				stroke-width='1px'
+				strokeWidth='1px'
 				x1='1420'
 				x2='1420'
 				y1='0'
 				y2='1100'
 				pathLength='1'
-				stroke-dashoffset='-0.4091999999998759px'
-				stroke-dasharray='0.01px 1px'
+				strokeDashoffset='-0.4091999999998759px'
+				strokeDasharray='0.01px 1px'
 			></line>
 			<line
 				stroke='rgba(207, 116, 162, 0.7777777777777777)'
-				stroke-width='1px'
+				strokeWidth='1px'
 				x1='1420'
 				x2='1420'
 				y1='0'
 				y2='1100'
 				pathLength='1'
-				stroke-dashoffset='-0.41919999999987584px'
-				stroke-dasharray='0.01px 1px'
+				strokeDashoffset='-0.41919999999987584px'
+				strokeDasharray='0.01px 1px'
 			></line>
 			<line
 				stroke='rgba(207, 116, 162, 0.8888888888888888)'
-				stroke-width='1px'
+				strokeWidth='1px'
 				x1='1420'
 				x2='1420'
 				y1='0'
 				y2='1100'
 				pathLength='1'
-				stroke-dashoffset='-0.42919999999987585px'
-				stroke-dasharray='0.01px 1px'
+				strokeDashoffset='-0.42919999999987585px'
+				strokeDasharray='0.01px 1px'
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='0'
 				x2='2000'
 				y1='20'
@@ -1063,7 +1063,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='0'
 				x2='2000'
 				y1='40'
@@ -1071,7 +1071,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='0'
 				x2='2000'
 				y1='60'
@@ -1079,7 +1079,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='0'
 				x2='2000'
 				y1='80'
@@ -1087,7 +1087,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='0'
 				x2='2000'
 				y1='100'
@@ -1095,7 +1095,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='0'
 				x2='2000'
 				y1='120'
@@ -1103,7 +1103,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='0'
 				x2='2000'
 				y1='140'
@@ -1111,7 +1111,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='0'
 				x2='2000'
 				y1='160'
@@ -1119,7 +1119,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='0'
 				x2='2000'
 				y1='180'
@@ -1127,7 +1127,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='0'
 				x2='2000'
 				y1='200'
@@ -1135,7 +1135,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='0'
 				x2='2000'
 				y1='220'
@@ -1143,7 +1143,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='0'
 				x2='2000'
 				y1='240'
@@ -1151,7 +1151,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='0'
 				x2='2000'
 				y1='260'
@@ -1159,7 +1159,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='0'
 				x2='2000'
 				y1='280'
@@ -1167,7 +1167,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='0'
 				x2='2000'
 				y1='300'
@@ -1175,7 +1175,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='0'
 				x2='2000'
 				y1='320'
@@ -1183,7 +1183,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='0'
 				x2='2000'
 				y1='340'
@@ -1191,7 +1191,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='0'
 				x2='2000'
 				y1='360'
@@ -1199,7 +1199,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='0'
 				x2='2000'
 				y1='380'
@@ -1207,7 +1207,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='0'
 				x2='2000'
 				y1='400'
@@ -1215,7 +1215,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='0'
 				x2='2000'
 				y1='420'
@@ -1223,7 +1223,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='0'
 				x2='2000'
 				y1='440'
@@ -1231,7 +1231,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='0'
 				x2='2000'
 				y1='460'
@@ -1239,7 +1239,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='0'
 				x2='2000'
 				y1='480'
@@ -1247,7 +1247,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='0'
 				x2='2000'
 				y1='500'
@@ -1255,7 +1255,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='0'
 				x2='2000'
 				y1='520'
@@ -1263,7 +1263,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='0'
 				x2='2000'
 				y1='540'
@@ -1271,7 +1271,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='0'
 				x2='2000'
 				y1='560'
@@ -1279,7 +1279,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='0'
 				x2='2000'
 				y1='580'
@@ -1287,7 +1287,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='0'
 				x2='2000'
 				y1='600'
@@ -1295,7 +1295,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='0'
 				x2='2000'
 				y1='620'
@@ -1303,7 +1303,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='0'
 				x2='2000'
 				y1='640'
@@ -1311,7 +1311,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='0'
 				x2='2000'
 				y1='660'
@@ -1319,7 +1319,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='0'
 				x2='2000'
 				y1='680'
@@ -1327,7 +1327,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='0'
 				x2='2000'
 				y1='700'
@@ -1335,7 +1335,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='0'
 				x2='2000'
 				y1='720'
@@ -1343,7 +1343,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='0'
 				x2='2000'
 				y1='740'
@@ -1351,7 +1351,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='0'
 				x2='2000'
 				y1='760'
@@ -1359,7 +1359,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='0'
 				x2='2000'
 				y1='780'
@@ -1367,7 +1367,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='0'
 				x2='2000'
 				y1='800'
@@ -1375,7 +1375,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='0'
 				x2='2000'
 				y1='820'
@@ -1383,7 +1383,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='0'
 				x2='2000'
 				y1='840'
@@ -1391,7 +1391,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='0'
 				x2='2000'
 				y1='860'
@@ -1399,7 +1399,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='0'
 				x2='2000'
 				y1='880'
@@ -1407,7 +1407,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='0'
 				x2='2000'
 				y1='900'
@@ -1415,7 +1415,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='0'
 				x2='2000'
 				y1='920'
@@ -1423,7 +1423,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='0'
 				x2='2000'
 				y1='940'
@@ -1431,7 +1431,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='0'
 				x2='2000'
 				y1='960'
@@ -1439,7 +1439,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='0'
 				x2='2000'
 				y1='980'
@@ -1447,7 +1447,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='0'
 				x2='2000'
 				y1='1000'
@@ -1455,7 +1455,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='0'
 				x2='2000'
 				y1='1020'
@@ -1463,7 +1463,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='0'
 				x2='2000'
 				y1='1040'
@@ -1471,7 +1471,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='0'
 				x2='2000'
 				y1='1060'
@@ -1479,7 +1479,7 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(0,0,0,0.06)'
-				stroke-width='0.67px'
+				strokeWidth='0.67px'
 				x1='0'
 				x2='2000'
 				y1='1080'
@@ -1487,201 +1487,201 @@ export const HomeBgImage = () => {
 			></line>
 			<line
 				stroke='rgba(12, 160, 99, 1)'
-				stroke-width='1px'
+				strokeWidth='1px'
 				x1='0'
 				x2='2000'
 				y1='100'
 				y2='100'
 				pathLength='1'
-				stroke-dashoffset='-0.6508000000001242px'
-				stroke-dasharray='0.01px 1px'
+				strokeDashoffset='-0.6508000000001242px'
+				strokeDasharray='0.01px 1px'
 			></line>
 			<line
 				stroke='rgba(12, 160, 99, 0.8888888888888888)'
-				stroke-width='1px'
+				strokeWidth='1px'
 				x1='0'
 				x2='2000'
 				y1='100'
 				y2='100'
 				pathLength='1'
-				stroke-dashoffset='-0.6608000000001242px'
-				stroke-dasharray='0.01px 1px'
+				strokeDashoffset='-0.6608000000001242px'
+				strokeDasharray='0.01px 1px'
 			></line>
 			<line
 				stroke='rgba(12, 160, 99, 0.7777777777777778)'
-				stroke-width='1px'
+				strokeWidth='1px'
 				x1='0'
 				x2='2000'
 				y1='100'
 				y2='100'
 				pathLength='1'
-				stroke-dashoffset='-0.6708000000001242px'
-				stroke-dasharray='0.01px 1px'
+				strokeDashoffset='-0.6708000000001242px'
+				strokeDasharray='0.01px 1px'
 			></line>
 			<line
 				stroke='rgba(12, 160, 99, 0.6666666666666667)'
-				stroke-width='1px'
+				strokeWidth='1px'
 				x1='0'
 				x2='2000'
 				y1='100'
 				y2='100'
 				pathLength='1'
-				stroke-dashoffset='-0.6808000000001242px'
-				stroke-dasharray='0.01px 1px'
+				strokeDashoffset='-0.6808000000001242px'
+				strokeDasharray='0.01px 1px'
 			></line>
 			<line
 				stroke='rgba(12, 160, 99, 0.5555555555555556)'
-				stroke-width='1px'
+				strokeWidth='1px'
 				x1='0'
 				x2='2000'
 				y1='100'
 				y2='100'
 				pathLength='1'
-				stroke-dashoffset='-0.6908000000001242px'
-				stroke-dasharray='0.01px 1px'
+				strokeDashoffset='-0.6908000000001242px'
+				strokeDasharray='0.01px 1px'
 			></line>
 			<line
 				stroke='rgba(12, 160, 99, 0.4444444444444444)'
-				stroke-width='1px'
+				strokeWidth='1px'
 				x1='0'
 				x2='2000'
 				y1='100'
 				y2='100'
 				pathLength='1'
-				stroke-dashoffset='-0.7008000000001242px'
-				stroke-dasharray='0.01px 1px'
+				strokeDashoffset='-0.7008000000001242px'
+				strokeDasharray='0.01px 1px'
 			></line>
 			<line
 				stroke='rgba(12, 160, 99, 0.33333333333333337)'
-				stroke-width='1px'
+				strokeWidth='1px'
 				x1='0'
 				x2='2000'
 				y1='100'
 				y2='100'
 				pathLength='1'
-				stroke-dashoffset='-0.7108000000001242px'
-				stroke-dasharray='0.01px 1px'
+				strokeDashoffset='-0.7108000000001242px'
+				strokeDasharray='0.01px 1px'
 			></line>
 			<line
 				stroke='rgba(12, 160, 99, 0.22222222222222232)'
-				stroke-width='1px'
+				strokeWidth='1px'
 				x1='0'
 				x2='2000'
 				y1='100'
 				y2='100'
 				pathLength='1'
-				stroke-dashoffset='-0.7208000000001242px'
-				stroke-dasharray='0.01px 1px'
+				strokeDashoffset='-0.7208000000001242px'
+				strokeDasharray='0.01px 1px'
 			></line>
 			<line
 				stroke='rgba(12, 160, 99, 0.11111111111111116)'
-				stroke-width='1px'
+				strokeWidth='1px'
 				x1='0'
 				x2='2000'
 				y1='100'
 				y2='100'
 				pathLength='1'
-				stroke-dashoffset='-0.7308000000001242px'
-				stroke-dasharray='0.01px 1px'
+				strokeDashoffset='-0.7308000000001242px'
+				strokeDasharray='0.01px 1px'
 			></line>
 			<line
 				stroke='rgba(39, 151, 207, 0)'
-				stroke-width='1px'
+				strokeWidth='1px'
 				x1='0'
 				x2='2000'
 				y1='400'
 				y2='400'
 				pathLength='1'
-				stroke-dashoffset='-0.34919999999987583px'
-				stroke-dasharray='0.01px 1px'
+				strokeDashoffset='-0.34919999999987583px'
+				strokeDasharray='0.01px 1px'
 			></line>
 			<line
 				stroke='rgba(39, 151, 207, 0.1111111111111111)'
-				stroke-width='1px'
+				strokeWidth='1px'
 				x1='0'
 				x2='2000'
 				y1='400'
 				y2='400'
 				pathLength='1'
-				stroke-dashoffset='-0.35919999999987584px'
-				stroke-dasharray='0.01px 1px'
+				strokeDashoffset='-0.35919999999987584px'
+				strokeDasharray='0.01px 1px'
 			></line>
 			<line
 				stroke='rgba(39, 151, 207, 0.2222222222222222)'
-				stroke-width='1px'
+				strokeWidth='1px'
 				x1='0'
 				x2='2000'
 				y1='400'
 				y2='400'
 				pathLength='1'
-				stroke-dashoffset='-0.3691999999998759px'
-				stroke-dasharray='0.01px 1px'
+				strokeDashoffset='-0.3691999999998759px'
+				strokeDasharray='0.01px 1px'
 			></line>
 			<line
 				stroke='rgba(39, 151, 207, 0.3333333333333333)'
-				stroke-width='1px'
+				strokeWidth='1px'
 				x1='0'
 				x2='2000'
 				y1='400'
 				y2='400'
 				pathLength='1'
-				stroke-dashoffset='-0.37919999999987586px'
-				stroke-dasharray='0.01px 1px'
+				strokeDashoffset='-0.37919999999987586px'
+				strokeDasharray='0.01px 1px'
 			></line>
 			<line
 				stroke='rgba(39, 151, 207, 0.4444444444444444)'
-				stroke-width='1px'
+				strokeWidth='1px'
 				x1='0'
 				x2='2000'
 				y1='400'
 				y2='400'
 				pathLength='1'
-				stroke-dashoffset='-0.3891999999998758px'
-				stroke-dasharray='0.01px 1px'
+				strokeDashoffset='-0.3891999999998758px'
+				strokeDasharray='0.01px 1px'
 			></line>
 			<line
 				stroke='rgba(39, 151, 207, 0.5555555555555556)'
-				stroke-width='1px'
+				strokeWidth='1px'
 				x1='0'
 				x2='2000'
 				y1='400'
 				y2='400'
 				pathLength='1'
-				stroke-dashoffset='-0.3991999999998758px'
-				stroke-dasharray='0.01px 1px'
+				strokeDashoffset='-0.3991999999998758px'
+				strokeDasharray='0.01px 1px'
 			></line>
 			<line
 				stroke='rgba(39, 151, 207, 0.6666666666666666)'
-				stroke-width='1px'
+				strokeWidth='1px'
 				x1='0'
 				x2='2000'
 				y1='400'
 				y2='400'
 				pathLength='1'
-				stroke-dashoffset='-0.4091999999998759px'
-				stroke-dasharray='0.01px 1px'
+				strokeDashoffset='-0.4091999999998759px'
+				strokeDasharray='0.01px 1px'
 			></line>
 			<line
 				stroke='rgba(39, 151, 207, 0.7777777777777777)'
-				stroke-width='1px'
+				strokeWidth='1px'
 				x1='0'
 				x2='2000'
 				y1='400'
 				y2='400'
 				pathLength='1'
-				stroke-dashoffset='-0.41919999999987584px'
-				stroke-dasharray='0.01px 1px'
+				strokeDashoffset='-0.41919999999987584px'
+				strokeDasharray='0.01px 1px'
 			></line>
 			<line
 				stroke='rgba(39, 151, 207, 0.8888888888888888)'
-				stroke-width='1px'
+				strokeWidth='1px'
 				x1='0'
 				x2='2000'
 				y1='400'
 				y2='400'
 				pathLength='1'
-				stroke-dashoffset='-0.42919999999987585px'
-				stroke-dasharray='0.01px 1px'
+				strokeDashoffset='-0.42919999999987585px'
+				strokeDasharray='0.01px 1px'
 			></line>
 		</svg>
 	)
