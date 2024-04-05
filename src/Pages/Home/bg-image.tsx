@@ -1,5 +1,3 @@
-import React from 'react'
-
 export const HomeBgImage = () => {
 	return (
 		<svg height='200vh' width='100vw'>
