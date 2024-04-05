@@ -1,0 +1,82 @@
+.nav {
+	position: fixed;
+	top: 1rem;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 100%;
+	max-width: fit-content;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	height: 2.9rem;
+	padding: 0.25rem;
+	border-radius: 1rem;
+	background-color: rgb(48, 48, 48);
+	z-index: 999;
+}
+
+.logoContainer {
+	background-color: var(--orange);
+	border-radius: 0.75rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 2.25rem;
+	height: 2.25rem;
+	margin-right: 0.5rem;
+}
+
+.logoContainer:hover .logo {
+	animation: rotate 5s infinite linear;
+}
+
+.link,
+.login {
+	padding: 0 0.75rem;
+	color: #fff;
+	font-size: 13px;
+	letter-spacing: -0.005em;
+	line-height: 130%;
+	font-weight: 500;
+}
+
+.login {
+	margin-left: 0.5rem;
+	color: #000;
+	background-color: #fff;
+	height: 2.25rem;
+	border-radius: 0.75rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.loginAndMenu {
+	display: flex;
+	gap: 0.5rem;
+}
+@media screen and (max-width: 770px) {
+	.nav {
+		width: 90%;
+		max-width: none;
+		justify-content: space-between;
+		box-shadow:
+			0 0 #0000,
+			0 0 #0000,
+			0 0 #0000,
+			0 0 #0000,
+			0 20px 25px -5px rgba(0, 0, 0, 0.1),
+			0 8px 10px -6px rgba(0, 0, 0, 0.1);
+	}
+	.link {
+		display: none;
+	}
+}
+
+@keyframes rotate {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}

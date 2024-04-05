@@ -1,0 +1,117 @@
+.container {
+	position: relative;
+}
+
+.openMenu {
+	padding-left: 0.75rem;
+	color: #fff;
+	font-size: 13px;
+	letter-spacing: -0.005em;
+	line-height: 130%;
+	font-weight: 500;
+	height: 2.5rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: default;
+	position: relative;
+}
+.openMenu img {
+	transform: rotate(180deg);
+	transition: transform 0.2s ease-in-out;
+	opacity: 0.8;
+	margin: 0 calc(0.75rem / 2);
+}
+.openMenu:hover + .dropdown {
+	visibility: visible;
+	opacity: 1;
+}
+.openMenu:hover img {
+	transform: rotate(0);
+}
+
+.dropdown:hover {
+	visibility: visible;
+	opacity: 1;
+}
+.dropdown {
+	position: absolute;
+	top: 3rem;
+	padding: 0.5rem;
+	border-radius: 0.75rem;
+	background-color: rgb(48, 48, 48);
+	visibility: hidden;
+	opacity: 0;
+	transition:
+		visibility 0s,
+		opacity 0.1s ease-in-out;
+}
+.dropdown li {
+	list-style-type: none;
+}
+.invisible {
+	top: -0.5rem;
+	left: 0;
+	height: 1rem;
+	width: 100%;
+	background-color: transparent;
+	position: absolute;
+}
+.itemProduct {
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	padding: 0.625rem 0 0.625rem 0.5rem;
+	gap: 0.75rem;
+	width: 300px;
+	border-radius: 0.5rem;
+	cursor: pointer;
+}
+.itemProduct:hover {
+	background-color: hsla(0, 0%, 100%, 0.1);
+}
+.itemProduct img {
+	height: 36px;
+	width: 36px;
+}
+.titleAndDesc {
+	font-size: 14px;
+	font-weight: 500;
+	letter-spacing: -0.005em;
+	line-height: 130%;
+	color: #fff;
+	display: flex;
+	flex-direction: column;
+}
+.descProduct {
+	color: rgb(175, 175, 175);
+	font-weight: 400;
+}
+/*  */
+
+.itemResouces {
+	list-style-type: none;
+	width: 180px;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	gap: 0.75rem;
+	border-radius: 0.5rem;
+	padding: 0.5rem 32px 0.5rem 8px;
+	cursor: pointer;
+}
+.itemResouces:hover {
+	background-color: hsla(0, 0%, 100%, 0.1);
+}
+.titleResources {
+	font-size: 14px;
+	font-weight: 500;
+	letter-spacing: -0.005em;
+	line-height: 130%;
+	color: #fff;
+}
+@media screen and (max-width: 770px) {
+	.openMenu {
+		display: none;
+	}
+}

@@ -1,0 +1,80 @@
+.container {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+.main {
+	position: absolute;
+	top: -40px;
+	left: -60px;
+}
+
+.cube1 {
+	position: absolute;
+	top: 160px;
+	left: -10px;
+	bottom: 0;
+	scale: 0.7;
+}
+.cube2 {
+	position: absolute;
+	bottom: -10px;
+	left: 70px;
+	scale: 0.7;
+}
+.cube3 {
+	position: absolute;
+	top: 200px;
+	left: 120px;
+}
+.cube4 {
+	position: absolute;
+	top: 52px;
+	left: 120px;
+}
+
+.cube5 {
+	position: absolute;
+	scale: 1.5;
+	top: 120px;
+	left: 240px;
+}
+.cube5y1 {
+	position: absolute;
+	scale: 1.95;
+	top: 120px;
+	left: 240px;
+	opacity: 0.5;
+}
+.cube5y2 {
+	position: absolute;
+	scale: 2.35;
+	top: 120px;
+	left: 240px;
+	opacity: 0.25;
+}
+
+.cube6 {
+	position: absolute;
+	top: 200px;
+	left: 348px;
+}
+
+.cube7 {
+	position: absolute;
+	top: 35px;
+	left: 365px;
+}
+
+.cube8 {
+	position: absolute;
+	scale: 0.7;
+	top: 140px;
+	left: 440px;
+}
+.cube9 {
+	position: absolute;
+	scale: 0.7;
+	top: 60px;
+	left: 480px;
+}

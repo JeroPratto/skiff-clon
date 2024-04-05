@@ -1,0 +1,124 @@
+.menuButton {
+	height: 2.25rem;
+	width: 2.25rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: transparent;
+	box-shadow: none;
+	border: none;
+	cursor: pointer;
+	display: none;
+}
+.menuButton svg {
+	height: 16px;
+	width: 16px;
+}
+.menuContainer {
+	position: absolute;
+	top: 3.3rem;
+	width: 100%;
+	left: 0;
+	background-color: rgb(48, 48, 48);
+	border-radius: 0.75rem;
+	display: none;
+}
+.menuContainer.open {
+	display: block;
+}
+.openSubMenu {
+	width: 100%;
+	padding: 0.75rem 1rem;
+	font-size: 14px;
+	font-weight: 500;
+	letter-spacing: -0.005em;
+	line-height: 130%;
+	color: #fff;
+	background-color: transparent;
+	border: none;
+	text-align: start;
+	border-bottom: 1px solid hsla(0, 0%, 100%, 0.06);
+	cursor: pointer;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.openSubMenu img {
+	transition: transform 0.2s ease-in-out;
+}
+.openSubMenu img.rotate {
+	transform: rotate(90deg);
+}
+.subMenuProduct,
+.subMenuResources {
+	width: 100%;
+	display: none;
+}
+.subMenuResources {
+	display: none;
+	grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+.subMenuProduct.open {
+	display: block;
+}
+.subMenuResources.open {
+	display: grid;
+}
+.subMenuProduct li {
+	list-style-type: none;
+}
+.subMenuItemResources {
+	padding: 0.625rem 0 0.625rem 0.5rem;
+	border-bottom: 1px solid hsla(0, 0%, 100%, 0.06);
+	list-style-type: none;
+	display: flex;
+	align-items: center;
+	margin: 0 20px;
+	color: #fff;
+	font-size: 14px;
+	font-weight: 400;
+	letter-spacing: -0.005em;
+	line-height: 130%;
+	gap: 0.75rem;
+}
+.subMenuItemResources img {
+	height: 36px;
+	width: 36px;
+}
+.subMenuItemProduct {
+	margin: 0 20px;
+	padding: 0.625rem 0 0.625rem 0.5rem;
+	list-style-type: none;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	gap: 0.75rem;
+	border-bottom: 1px solid hsla(0, 0%, 100%, 0.06);
+	cursor: pointer;
+}
+
+.titleAndDesc {
+	display: flex;
+	flex-direction: column;
+}
+.titleProduct,
+.descProduct {
+	font-size: 14px;
+	font-weight: 500;
+	letter-spacing: -0.005em;
+	line-height: 130%;
+	color: #fff;
+}
+.descProduct {
+	font-weight: 400;
+	color: rgb(175, 175, 175);
+}
+.imageProduct {
+	height: 36px;
+	width: 36px;
+}
+@media screen and (max-width: 770px) {
+	.menuButton {
+		display: block;
+	}
+}

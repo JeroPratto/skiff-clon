@@ -1,0 +1,83 @@
+.container {
+	position: absolute;
+	width: 100%;
+	right: -1.75rem;
+	bottom: 0;
+	border: 1px solid #dfdfdf;
+	border-radius: 0.75rem;
+	overflow: hidden;
+}
+.container li {
+	list-style-type: none;
+}
+.mailItem {
+	padding: 0.75rem 1.25rem;
+	border-bottom: 1px solid rgb(239, 239, 239);
+	background-color: #fff;
+	gap: 2.5rem;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.userAndCheckContainer {
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+}
+.face {
+	width: 28px;
+	height: 28px;
+	max-width: 36px;
+	border-radius: 0.375rem;
+	margin-right: -0.25rem;
+}
+.name {
+	color: rgb(112, 112, 112);
+	margin-left: 0.25rem;
+	width: 9rem;
+	font-size: 14px;
+	letter-spacing: -0.005em;
+	line-height: 130%;
+}
+
+.subject {
+	width: 100%;
+	color: rgb(112, 112, 112);
+	white-space: nowrap;
+	overflow: hidden;
+	font-size: 14px;
+	letter-spacing: -0.005em;
+	line-height: 130%;
+	position: relative;
+	padding-left: 1rem;
+}
+.subject.notView {
+	color: #000;
+	font-weight: 500;
+}
+.orangeCircle {
+	background-color: var(--orange);
+	border-radius: 100%;
+	width: 0.5rem;
+	height: 0.5rem;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	left: 0;
+}
+.advance {
+	color: rgb(175, 175, 175);
+}
+.blur {
+	position: absolute;
+	background-color: rgba(0, 149, 194, 0.08);
+	height: 110px;
+	width: 100%;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	border-top: 2px solid rgb(74, 183, 238);
+}

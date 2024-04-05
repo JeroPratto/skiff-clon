@@ -1,0 +1,85 @@
+.container {
+	background-color: #fff;
+	border: 1px solid rgb(235, 235, 235);
+	border-bottom: 0;
+	border-top-left-radius: 0.5rem;
+	border-top-right-radius: 0.5rem;
+	overflow: hidden;
+	padding: 2.7rem;
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+	position: relative;
+}
+.imageContainer {
+	width: 3rem;
+	min-height: 3rem;
+	max-height: 3rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 0.5rem;
+	border-width: 1px 1px 2px;
+	border-color: rgba(0, 0, 0, 0.08);
+	border-style: solid;
+}
+
+.title {
+	font-weight: 500;
+	font-size: 28px;
+	line-height: 120%;
+}
+
+.desc {
+	text-align: start;
+}
+.desc,
+.encriptedDesc {
+	color: rgb(112, 112, 112);
+	font-size: 14px;
+	letter-spacing: -0.005em;
+	line-height: 130%;
+}
+
+.encripted {
+	position: absolute;
+	top: 0;
+	right: 2.7rem;
+	bottom: 0;
+	width: 30%;
+	overflow: hidden;
+}
+.encriptedDesc {
+	top: 11.3em;
+	position: relative;
+	background-color: #fff;
+	max-width: 100%;
+}
+.color {
+	position: absolute;
+	z-index: 10;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	width: calc(30% + 2.7rem);
+	background-color: rgba(255, 142, 120, 0.12);
+	border-left: 2px solid var(--orange);
+}
+
+@media screen and (max-width: 1100px) {
+	.title {
+		font-size: 24px;
+	}
+	.encriptedDesc {
+		top: 9.5rem;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.title {
+		font-size: 23px;
+	}
+	.encriptedDesc {
+		top: 9.4rem;
+	}
+}

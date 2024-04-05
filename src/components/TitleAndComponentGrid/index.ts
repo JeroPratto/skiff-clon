@@ -1,0 +1,1 @@
+export { default as TitleAndComponentGrid } from './TitleAndComponentGrid';
