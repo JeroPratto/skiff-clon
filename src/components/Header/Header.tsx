@@ -22,7 +22,7 @@ const Header: React.FC = () => {
 	return (
 		isView && (
 			<nav className={styles.nav}>
-				<Link to='/' className={styles.logoContainer}>
+				<Link to='/' className={styles.logoContainer} aria-label='go to home'>
 					<img src={logo} alt='' className={styles.logo} />
 				</Link>
 				<HeaderDropdownProducts />

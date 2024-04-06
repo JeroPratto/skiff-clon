@@ -40,6 +40,7 @@ const HeaderMenu: React.FC = () => {
 				className={styles.menuButton}
 				onClick={toggleState}
 				data-testid='header-mobile-menu-button'
+				aria-label={open ? 'close menu' : 'open menu'}
 			>
 				{open ? <CloseSvg /> : <OpenSvg />}
 			</button>
