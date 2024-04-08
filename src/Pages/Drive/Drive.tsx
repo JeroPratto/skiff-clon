@@ -18,7 +18,7 @@ const Drive: React.FC = () => {
 			Skiff Drive protects your files with
 			<span style={{ color: 'rgb(0, 160, 94)' }}> end-to-end encryption</span>,
 			so you can share your work
-			<span style={{ color: 'rgb(0, 160, 94)' }}>securely</span>.
+			<span style={{ color: 'rgb(0, 160, 94)' }}> securely</span>.
 		</>
 	)
 	const information = getDriveHeroProduct()
