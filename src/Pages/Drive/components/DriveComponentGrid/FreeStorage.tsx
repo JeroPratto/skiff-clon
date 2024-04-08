@@ -5,8 +5,8 @@ import ProductGridComponent from '@/components/ProductGridComponent/ProductGridC
 const FreeStorage: React.FC = () => {
 	return (
 		<ProductGridComponent
-			title='Upload, share, and preview any file'
-			desc='On Skiff Drive, you can upload and share any file type or entire folders. Preview files, images, and video on the web and mobile apps.'
+			title='10GB free storage'
+			desc='With 10 GB free storage, migrate easily from Google Drive, Dropbox, Box, or a hard drive. Subscribe to paid plans for even more storage space.'
 		>
 			<div className={styles.container}>
 				<p className={styles.gigasUsed}>
