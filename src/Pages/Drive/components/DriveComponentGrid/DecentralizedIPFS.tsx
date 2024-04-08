@@ -1,16 +1,14 @@
-import GlobalStyle from '@/Pages/styles/ComponentGridProducts.module.css'
-import CardTitleAndDesc from '@/components/CardTitleAndDesc/CardTitleAndDesc'
 import styles from './DecentralizedIPFS.module.css'
 import whiteCube from '/drive/white-cube.svg'
 import greenCube from '/drive/green-cube.svg'
+import ProductGridComponent from '@/components/ProductGridComponent/ProductGridComponent'
 
 const DecentralizedIPFS: React.FC = () => {
 	return (
-		<div className={GlobalStyle.container}>
-			<CardTitleAndDesc
-				title='Decentralized IPFS Storage'
-				desc='Opt-in to store your files on the InterPlanetary File System, a decentralized storage network that is redundant and censorship resistant.'
-			/>
+		<ProductGridComponent
+			title='Decentralized IPFS Storage'
+			desc='Opt-in to store your files on the InterPlanetary File System, a decentralized storage network that is redundant and censorship resistant.'
+		>
 			<div className={styles.container}>
 				<svg height='100vh' width='100vw' className={styles.main}>
 					<line
@@ -221,7 +219,7 @@ const DecentralizedIPFS: React.FC = () => {
 					<img src={whiteCube} alt='' />
 				</div>
 			</div>
-		</div>
+		</ProductGridComponent>
 	)
 }
 

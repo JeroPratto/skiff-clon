@@ -1,17 +1,15 @@
-import GlobalStyle from '@/Pages/styles/ComponentGridProducts.module.css'
-import CardTitleAndDesc from '@/components/CardTitleAndDesc/CardTitleAndDesc'
 import styles from '../DriveHero.module.css'
 import check from '/mail/no-check-logo.svg'
 import getDriveHeroFiles from '../../utils/getDriveHeroFiles'
+import ProductGridComponent from '@/components/ProductGridComponent/ProductGridComponent'
 
 const UploadSharePreview: React.FC = () => {
 	const items = getDriveHeroFiles()
 	return (
-		<div className={GlobalStyle.container}>
-			<CardTitleAndDesc
-				title='Upload, share, and preview any file'
-				desc='On Skiff Drive, you can upload and share any file type or entire folders. Preview files, images, and video on the web and mobile apps.'
-			/>
+		<ProductGridComponent
+			title='Upload, share, and preview any file'
+			desc='On Skiff Drive, you can upload and share any file type or entire folders. Preview files, images, and video on the web and mobile apps.'
+		>
 			<div className={styles.containerUploadSharePreview}>
 				<div className={styles.tableHeader}>
 					<p className={styles.nameHeader}>
@@ -43,7 +41,7 @@ const UploadSharePreview: React.FC = () => {
 					</div>
 				))}
 			</div>
-		</div>
+		</ProductGridComponent>
 	)
 }
 

@@ -1,18 +1,16 @@
-import GlobalStyle from '@/Pages/styles/ComponentGridProducts.module.css'
-import CardTitleAndDesc from '@/components/CardTitleAndDesc/CardTitleAndDesc'
 import styles from './EasilyMigrate.module.css'
 import googleDrive from '/icons/google-drive.svg'
 import getDriveHeroFiles from '../../utils/getDriveHeroFiles'
 import check from '/mail/no-check-logo.svg'
+import ProductGridComponent from '@/components/ProductGridComponent/ProductGridComponent'
 
 const EasilyMigrate: React.FC = () => {
 	const items = getDriveHeroFiles()
 	return (
-		<div className={GlobalStyle.container}>
-			<CardTitleAndDesc
-				title='Easily migrate with 1-click'
-				desc='Easily migrate files from Google Drive by selecting the folders and files you want in our one-click migration tool.'
-			/>
+		<ProductGridComponent
+			title='Easily migrate with 1-click'
+			desc='Easily migrate files from Google Drive by selecting the folders and files you want in our one-click migration tool.'
+		>
 			<div className={styles.container}>
 				<Left />
 				<div className={styles.right}>
@@ -28,7 +26,7 @@ const EasilyMigrate: React.FC = () => {
 					))}
 				</div>
 			</div>
-		</div>
+		</ProductGridComponent>
 	)
 }
 

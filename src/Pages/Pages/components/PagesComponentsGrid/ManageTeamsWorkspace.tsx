@@ -1,17 +1,15 @@
-import GlobalStyle from '@/Pages/styles/ComponentGridProducts.module.css'
-import CardTitleAndDesc from '@/components/CardTitleAndDesc/CardTitleAndDesc'
 import styles from './ManageTeamsWorkspace.module.css'
 import getColumnsInformation from '../../utils/getColumnsInformation'
+import ProductGridComponent from '@/components/ProductGridComponent/ProductGridComponent'
 
 const ManageTeamsWorkspace = () => {
 	return (
-		<div className={GlobalStyle.container}>
-			<CardTitleAndDesc
-				title='Securely manage your team’s workspace'
-				desc='With the ability to flexibly create teams and delegate permissions, Skiff gives you all you need to build and scale your team.'
-			/>
+		<ProductGridComponent
+			title='Securely manage your team’s workspace'
+			desc='With the ability to flexibly create teams and delegate permissions, Skiff gives you all you need to build and scale your team.'
+		>
 			<TeamWorkspace />
-		</div>
+		</ProductGridComponent>
 	)
 }
 

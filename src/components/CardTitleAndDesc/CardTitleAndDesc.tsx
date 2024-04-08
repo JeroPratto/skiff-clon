@@ -1,4 +1,4 @@
-import GlobalStyle from '@/Pages/styles/ComponentGridProducts.module.css'
+import styles from '@/components/ProductGridComponent/ProductGridComponent.module.css'
 
 interface CardTitleAndDescProps {
 	title: string
@@ -6,9 +6,9 @@ interface CardTitleAndDescProps {
 }
 const CardTitleAndDesc: React.FC<CardTitleAndDescProps> = ({ title, desc }) => {
 	return (
-		<div className={GlobalStyle.titleAndDesc}>
-			<p className={GlobalStyle.title}>{title}</p>
-			<p className={GlobalStyle.desc}>{desc}</p>
+		<div className={styles.titleAndDesc}>
+			<p className={styles.title}>{title}</p>
+			<p className={styles.desc}>{desc}</p>
 		</div>
 	)
 }

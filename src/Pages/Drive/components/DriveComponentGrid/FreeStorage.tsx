@@ -1,15 +1,13 @@
-import GlobalStyle from '@/Pages/styles/ComponentGridProducts.module.css'
-import CardTitleAndDesc from '@/components/CardTitleAndDesc/CardTitleAndDesc'
 import styles from './FreeStorage.module.css'
 import circle from '/icons/circle-storage.svg'
+import ProductGridComponent from '@/components/ProductGridComponent/ProductGridComponent'
 
 const FreeStorage: React.FC = () => {
 	return (
-		<div className={GlobalStyle.container}>
-			<CardTitleAndDesc
-				title='Upload, share, and preview any file'
-				desc='On Skiff Drive, you can upload and share any file type or entire folders. Preview files, images, and video on the web and mobile apps.'
-			/>
+		<ProductGridComponent
+			title='Upload, share, and preview any file'
+			desc='On Skiff Drive, you can upload and share any file type or entire folders. Preview files, images, and video on the web and mobile apps.'
+		>
 			<div className={styles.container}>
 				<p className={styles.gigasUsed}>
 					<img src={circle} alt='' /> 2.3 of 10 GB used
@@ -30,7 +28,7 @@ const FreeStorage: React.FC = () => {
 					<EmptyStorage />
 				</div>
 			</div>
-		</div>
+		</ProductGridComponent>
 	)
 }
 export default FreeStorage

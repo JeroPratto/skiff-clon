@@ -1,20 +1,18 @@
-import GlobalStyle from '@/Pages/styles/ComponentGridProducts.module.css'
 import styles from './UnlimitedAliases.module.css'
 import minimize from '/icons/minimize.svg'
 import close from '/icons/x-icon.svg'
 import face from '/faces/0x60.svg'
-import CardTitleAndDesc from '@/components/CardTitleAndDesc/CardTitleAndDesc'
+import ProductGridComponent from '@/components/ProductGridComponent/ProductGridComponent'
 
 export const UnlimitedAliases = () => {
 	return (
-		<div className={GlobalStyle.container}>
-			<CardTitleAndDesc
-				title='Preserve your privacy with unlimited aliases'
-				desc='Wanted to ask about an update on the most recent engineering design
-				doc'
-			/>
+		<ProductGridComponent
+			title='Preserve your privacy with unlimited aliases'
+			desc='Wanted to ask about an update on the most recent engineering design
+		doc'
+		>
 			<NewMessage />
-		</div>
+		</ProductGridComponent>
 	)
 }
 

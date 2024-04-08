@@ -1,21 +1,19 @@
-import GlobalStyle from '@/Pages/styles/ComponentGridProducts.module.css'
 import styles from './AddOrRegisterDomain.module.css'
 import tick from '/icons/tick-green.svg'
 import points from '/icons/three-points.svg'
 import arrow from '/icons/arrow-grey.svg'
-import CardTitleAndDesc from '@/components/CardTitleAndDesc/CardTitleAndDesc'
+import ProductGridComponent from '@/components/ProductGridComponent/ProductGridComponent'
 
 export const AddOrRegisterDomain = () => {
 	return (
-		<div className={GlobalStyle.container}>
-			<CardTitleAndDesc
-				title='Add or register your custom domain'
-				desc='Customize your email address in one click with a privacy-first Skiff
-					Domain, or connect any domain you own. We salute you,
-					frank@festivus.com. Be the master of your domain.'
-			/>
+		<ProductGridComponent
+			title='Add or register your custom domain'
+			desc='Customize your email address in one click with a privacy-first Skiff
+			Domain, or connect any domain you own. We salute you,
+			frank@festivus.com. Be the master of your domain.'
+		>
 			<AddOrRegisterItems />
-		</div>
+		</ProductGridComponent>
 	)
 }
 

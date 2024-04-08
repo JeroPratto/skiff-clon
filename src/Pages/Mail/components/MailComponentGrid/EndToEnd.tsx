@@ -1,22 +1,20 @@
-import GlobalStyle from '@/Pages/styles/ComponentGridProducts.module.css'
 import styles from './EndToEnd.module.css'
 import { getMailsGrid } from '../../utils/getMailsGrid'
 import checkLogo from '/mail/check-logo.svg'
 import noCheckLogo from '/mail/no-check-logo.svg'
-import CardTitleAndDesc from '@/components/CardTitleAndDesc/CardTitleAndDesc'
+import ProductGridComponent from '@/components/ProductGridComponent/ProductGridComponent'
 
 export const EndToEnd = () => {
 	return (
-		<div className={GlobalStyle.container}>
-			<CardTitleAndDesc
-				title='End-to-end encrypted emails'
-				desc='All emails between Skiff users are end-to-end encrypted, including
-				both subject and contents. External mail is encrypted with your keys
-				on receipt, keeping it private.'
-			/>
+		<ProductGridComponent
+			title='End-to-end encrypted emails'
+			desc='All emails between Skiff users are end-to-end encrypted, including
+		both subject and contents. External mail is encrypted with your keys
+		on receipt, keeping it private.'
+		>
 			<EndToEndItems />
 			<div className={styles.blur}></div>
-		</div>
+		</ProductGridComponent>
 	)
 }
 

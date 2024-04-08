@@ -1,19 +1,17 @@
-import GlobalStyle from '@/Pages/styles/ComponentGridProducts.module.css'
 import styles from './ProtectEmailTracking.module.css'
 import tracking from '/mail/email-tracking.svg'
 import face from '/faces/face-icon-blur-green.svg'
 import face1 from '/faces/face-icon-blur-mix.svg'
-import CardTitleAndDesc from '@/components/CardTitleAndDesc/CardTitleAndDesc'
+import ProductGridComponent from '@/components/ProductGridComponent/ProductGridComponent'
 export const ProtectEmailTracking = () => {
 	return (
-		<div className={GlobalStyle.container}>
-			<CardTitleAndDesc
-				title='Protect yourself from email tracking'
-				desc='Block trackers, opens, and more. Your device information and IP
-				address are hidden by default when opening emails.'
-			/>
+		<ProductGridComponent
+			title='Protect yourself from email tracking'
+			desc='Block trackers, opens, and more. Your device information and IP
+		address are hidden by default when opening emails.'
+		>
 			<Protect />
-		</div>
+		</ProductGridComponent>
 	)
 }
 

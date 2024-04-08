@@ -1,22 +1,20 @@
-import GlobalStyle from '@/Pages/styles/ComponentGridProducts.module.css'
-import CardTitleAndDesc from '@/components/CardTitleAndDesc/CardTitleAndDesc'
+import ProductGridComponent from '@/components/ProductGridComponent/ProductGridComponent'
 import styles from './RealTimeCollaboration.module.css'
 import arrow from '/icons/big-arrow-black.svg'
 
 const RealTimeCollaboration: React.FC = () => {
 	return (
-		<div className={GlobalStyle.container}>
-			<CardTitleAndDesc
-				title='Effortless real-time collaboration'
-				desc='Write and edit together in real time. Connect securely and confidently with your collaborators from anywhere in the world.'
-			/>
+		<ProductGridComponent
+			title='Effortless real-time collaboration'
+			desc='Write and edit together in real time. Connect securely and confidently with your collaborators from anywhere in the world.'
+		>
 			<div className={styles.columns}>
 				<FirstColumn />
 				<SecondColumn />
 				<FirstColumn />
 				<Persons />
 			</div>
-		</div>
+		</ProductGridComponent>
 	)
 }
 

@@ -1,16 +1,14 @@
-import GlobalStyle from '@/Pages/styles/ComponentGridProducts.module.css'
-import CardTitleAndDesc from '@/components/CardTitleAndDesc/CardTitleAndDesc'
+import ProductGridComponent from '@/components/ProductGridComponent/ProductGridComponent'
 import styles from './PrivacyFirst.module.css'
 import icon from '/icons/raiz.svg'
 const PrivacyFirst: React.FC = () => {
 	return (
-		<div className={GlobalStyle.container}>
-			<CardTitleAndDesc
-				title='Privacy-first writing'
-				desc='Enjoy the freedom of complete privacy. A workspace with end-to-end encryption and decentralized notes, wikis, and pages.'
-			/>
+		<ProductGridComponent
+			title='Privacy-first writing'
+			desc='Enjoy the freedom of complete privacy. A workspace with end-to-end encryption and decentralized notes, wikis, and pages.'
+		>
 			<EllipticCurveCrypto />
-		</div>
+		</ProductGridComponent>
 	)
 }
 

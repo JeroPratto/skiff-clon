@@ -1,14 +1,12 @@
-import GlobalStyle from '@/Pages/styles/ComponentGridProducts.module.css'
-import CardTitleAndDesc from '@/components/CardTitleAndDesc/CardTitleAndDesc'
+import ProductGridComponent from '@/components/ProductGridComponent/ProductGridComponent'
 import styles from './StealthOrShare.module.css'
 import face from '/faces/jason-sunny.svg'
 const StealthOrShare: React.FC = () => {
 	return (
-		<div className={GlobalStyle.container}>
-			<CardTitleAndDesc
-				title='Stay in stealth or share with the world'
-				desc='Control exactly how and what you share. Easily publish docs, wikis and blogs to the web. And enhance your work with code blocks, embeds, formulas, subpages and more.'
-			/>
+		<ProductGridComponent
+			title='Stay in stealth or share with the world'
+			desc='Control exactly how and what you share. Easily publish docs, wikis and blogs to the web. And enhance your work with code blocks, embeds, formulas, subpages and more.'
+		>
 			<div className={styles.container}>
 				<div className={styles.header}>
 					<p className={styles.publish}>Publish</p>
@@ -38,7 +36,7 @@ const StealthOrShare: React.FC = () => {
 					</div>
 				</div>
 			</div>
-		</div>
+		</ProductGridComponent>
 	)
 }
 
