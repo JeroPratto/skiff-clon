@@ -27,7 +27,7 @@ const Header: React.FC = () => {
 				</Link>
 				<HeaderDropdownProducts />
 				<HeaderDropdownResources />
-				<Link to='/' className={styles.link}>
+				<Link to='/download' className={styles.link}>
 					Download
 				</Link>
 				<div className={styles.loginAndMenu}>

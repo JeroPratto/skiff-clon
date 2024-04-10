@@ -51,7 +51,9 @@ const HeaderMenu: React.FC = () => {
 			>
 				<ProductDropDownMobile {...products} />
 				<ResourcesDropDownMobile {...resources} />
-				<button className={styles.openSubMenu}>Download</button>
+				<Link to='/download' className={styles.openSubMenu}>
+					Download
+				</Link>
 			</div>
 		</>
 	)

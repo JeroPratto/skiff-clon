@@ -3,10 +3,10 @@
 	padding-bottom: 0;
 	border-bottom-left-radius: 36px;
 	border-bottom-right-radius: 36px;
+	border-bottom: 1px solid rgb(207, 207, 207);
 	height: 100%;
 	max-height: 95vh;
 	overflow: hidden;
-	border-bottom: 1px solid rgb(207, 207, 207);
 }
 .header {
 	display: flex;
